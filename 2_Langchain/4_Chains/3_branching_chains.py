@@ -69,5 +69,21 @@ branches = RunnableBranch(
 )
 
 # Create the classification chain
-# Your code goes here
-# ========================================================
+# Types this
+# ======================================================== - Ignore the comments
+chain = classification_template | model | StrOutputParser() | branches
+
+# Combine classification and response generation into one chain
+
+# Run the chain with an example review
+# Good review - "The product is excellent. I really enjoyed using it and found it very helpful."
+# Bad review - "The product is terrible. It broke after just one use and the quality is very poor."
+# Neutral review - "The product is okay. It works as expected but nothing exceptional."
+# Default - "I'm not sure about the product yet. Can you tell me more about its features and benefits?"
+
+review = "Hello my name is Yash"
+result = chain.invoke({"feedback": review})
+
+# Output the result
+print(result)
+# ======================================================== - Ignore the comments

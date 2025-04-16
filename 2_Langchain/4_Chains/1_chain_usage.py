@@ -8,12 +8,14 @@ llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash')
 
 messages = [
         ("system","You are a comedian who tells jokes on the following {topic}."),
-        ("human","Tell ne {no_of_jokes} jokes")
+        ("human","Tell me {no_of_jokes} jokes")
 ]
 
 prompt_template = ChatPromptTemplate.from_messages(messages)
 
 # Types this
 # ========================================================
-
+chain = prompt_template | llm | StrOutputParser()
+result = chain.invoke({"topic":"RCB", "no_of_jokes":5})
+print(result)
 # ========================================================

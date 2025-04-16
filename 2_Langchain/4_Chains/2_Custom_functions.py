@@ -17,8 +17,8 @@ prompt = ChatPromptTemplate.from_messages(messages)
 
 # Types this
 # ========================================================
-to_upper = ""
-word_count = ""
+to_upper = RunnableLambda(lambda x: x.upper())
+word_count = RunnableLambda(lambda x: len(x.split()))
 # ========================================================
 
 chain = prompt | llm | StrOutputParser() | to_upper | word_count

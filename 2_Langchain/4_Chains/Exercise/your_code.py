@@ -3,7 +3,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableBranch
 from langchain_google_genai import ChatGoogleGenerativeAI
-import lorem
 
 # Load environment variables from .env
 load_dotenv()
@@ -74,12 +73,12 @@ branches = RunnableBranch(
     escalate_feedback_template | model | StrOutputParser()
 )
 
+# Create the classification chain
 
 
 def generate_response(feedback):
-    # Construct the chain
-
-    # Get the result from the chain
-
-    # return a valid result
-    return lorem.paragraph()
+    # Types this ========================================================
+    chain = classification_template | model | StrOutputParser() | branches
+    result = chain.invoke({"feedback": feedback})
+    return result
+    # Types this ========================================================
