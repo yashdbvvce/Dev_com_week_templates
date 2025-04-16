@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b416524c-ff14-4b6a-a640-7836d114482d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/DevComWeekTemplates.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_streamlit_basics/1_streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_streamlit_basics/echo_bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/1_Chat_models/1_google_chat_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/1_Chat_models/Exercise_1/streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/1_Chat_models/Exercise_1/your_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/1_Chat_Messages_Types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/2_implementing_memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/Exercise_2/streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/Exercise_2/your_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/1_Basic_Prompt_Template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/2_Prompt_with_memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/Exercise/streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/Exercise/your_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/1_chain_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/2_Custom_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/3_branching_chains.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/Exercise/streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/Exercise/your_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/1_rag_creating_vector_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/2_getting_data_from_Vector_Store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/3_qna_vector_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/books/romeo_and_juliet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/books/romeo_and_juliet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/3_Exercise/books/adventures_of_sherlock_holmes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/3_Exercise/streamlit_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RAG/3_Exercise/your_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vmELJMC14qq3LqcxZud0Hffojd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Stremlit App.executor&quot;: &quot;Run&quot;,
+    &quot;Python.streamlit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.streamlit_app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yashdeepakbambore/Documents/Btech/6th Sem/Dev_Com_Week/DevComWeekTemplates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Stremlit App" type="PythonConfigurationType" factoryName="Python">
+      <module name="DevComWeekTemplates" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (DevComWeekTemplates)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="streamlit" />
+      <option name="PARAMETERS" value="run $FilePath$" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
+        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b416524c-ff14-4b6a-a640-7836d114482d" name="Changes" comment="" />
+      <created>1744741791810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744741791810</updated>
+      <workItem from="1744741792844" duration="28000" />
+      <workItem from="1744763774998" duration="2813000" />
+      <workItem from="1744766620757" duration="69000" />
+      <workItem from="1744770353089" duration="47000" />
+      <workItem from="1744771034392" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2_Langchain/4_Chains/Exercise/streamlit_app.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DevComWeekTemplates$streamlit_app.coverage" NAME="streamlit_app Coverage Results" MODIFIED="1744764792652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/Exercise" />
+    <SUITE FILE_PATH="coverage/DevComWeekTemplates$streamlit.coverage" NAME="Stremlit App Coverage Results" MODIFIED="1744766202546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
