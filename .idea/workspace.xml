@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b416524c-ff14-4b6a-a640-7836d114482d" name="Changes" comment="xyz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Langchain/4_Chains/1_chain_usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/1_chain_usage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/1_rag_creating_vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/1_rag_creating_vector_store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/3_qna_vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/3_qna_vector_store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_RAG/3_Exercise/books/adventures_of_sherlock_holmes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/Sherlock Holmes Playground/books/adventures_of_sherlock_holmes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_RAG/3_Exercise/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/Sherlock Holmes Playground/streamlit_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_RAG/3_Exercise/your_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/Sherlock Holmes Playground/your_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744795534031</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="xyz">
+      <option name="closed" value="true" />
+      <created>1744798501380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744798501380</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

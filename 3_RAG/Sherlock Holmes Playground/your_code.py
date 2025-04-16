@@ -1,4 +1,3 @@
-import lorem
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_community.document_loaders import TextLoader
 from langchain_chroma import Chroma
@@ -22,7 +21,7 @@ def create_vector_store():
             raise FileExistsError("No file found")
 
         # Load data from document - (Single Chunk)
-        loader = TextLoader(file_path)
+        loader = TextLoader(file_path,encoding='utf-8')
         document_data = loader.load()
 
         # Split text in chunks
@@ -71,6 +70,22 @@ def get_similar_docs(query):
 
 # Main exercise part
 def generate_response(query):
-    # Your code goes here
-    # CreateVectorStore -> GetsimilarDocs -> PromptTemplate -> LLM -> return result.content
-    return lorem.paragraph()
+    #Type here
+    # =======================================================
+    # Step 1 : Create a vector store
+    create_vector_store()
+    # Step 2 : Get relevant docs
+    combined_docs = get_similar_docs(query)
+    # Finally Create a prompt_template here
+    prompt_template = """
+    // Your prompt template goes here. // -> replace this with a valid prompt
+    Here are the docs
+    {combined_docs}
+    Answer the given quesion below
+    {query}
+    """
+    prompt_template_ = ChatPromptTemplate.from_template(prompt_template)
+    prompt = prompt_template_.invoke({"combined_docs":combined_docs, "query":query})
+    response = llm.invoke(prompt)
+    return response.content
+    #=======================================================
