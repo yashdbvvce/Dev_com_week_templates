@@ -8,6 +8,6 @@ def generate_response(user_input):
     # Your code goes here
     # Type this ===============================================
     llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash')
-    result = llm.invoke("Hello How are you ?")
+    result = llm.invoke(user_input)
     return result.content
     # Type this ===============================================
