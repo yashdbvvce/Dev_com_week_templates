@@ -28,10 +28,18 @@ print("\n--- Relevant Documents ---")
 for i, doc in enumerate(relevant_docs, 1):
     print(f"Document {i}:\n{doc.page_content}\n")
 
-# Your code goes here - replace the combined_input variable
-#========================================================
-combined_input = ""
-#========================================================
+# Combine the query and the relevant document contents
+# Types this
+# ========================================================
+docs_combined = "\n\n".join([doc.page_content for doc in relevant_docs])
+combined_input = (
+    "Here are some documents that might help answer the question: "
+    + query
+    + "\n\nRelevant Documents:\n"
+    + docs_combined
+    + "\n\nPlease provide an answer based only on the provided documents. If the answer is not found in the documents, respond with 'I'm not sure'."
+)
+# ========================================================
 
 # Create a ChatOpenAI model
 model = ChatGoogleGenerativeAI(model="gemini-2.0-flash")

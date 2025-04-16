@@ -7,8 +7,9 @@
     <list default="true" id="b416524c-ff14-4b6a-a640-7836d114482d" name="Changes" comment="xyz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_Langchain/4_Chains/1_chain_usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/1_chain_usage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Langchain/4_Chains/2_Custom_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/2_Custom_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Langchain/4_Chains/3_branching_chains.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/3_branching_chains.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/1_rag_creating_vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/1_rag_creating_vector_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/3_qna_vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/3_qna_vector_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,18 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yashdbvvce"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yashdbvvce&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yashdbvvce/Dev_com_week_templates.git",
-    "accountId": "c5e0c4a1-4b08-4da5-90db-9458715288c7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yashdbvvce/Dev_com_week_templates.git&quot;,
+    &quot;accountId&quot;: &quot;c5e0c4a1-4b08-4da5-90db-9458715288c7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -44,7 +45,9 @@
     "Python.1_Basic_Prompt_Template.executor": "Run",
     "Python.1_chain_usage.executor": "Run",
     "Python.1_google_chat_model.executor": "Run",
+    "Python.1_rag_creating_vector_store.executor": "Run",
     "Python.2_Custom_functions.executor": "Run",
+    "Python.2_getting_data_from_Vector_Store.executor": "Run",
     "Python.2_implementing_memory.executor": "Run",
     "Python.Stremlit App.executor": "Run",
     "Python.streamlit.executor": "Run",
@@ -186,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744794616643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="xyz">
+      <option name="closed" value="true" />
+      <created>1744795534031</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744795534031</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

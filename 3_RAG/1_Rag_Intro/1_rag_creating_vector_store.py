@@ -18,7 +18,7 @@ if not os.path.exists(persistant_directory):
         raise FileExistsError("No file found")
 
     # Load data from document - (Single Chunk)
-    loader = TextLoader(file_path)
+    loader = TextLoader(file_path,encoding='utf-8')
     document_data = loader.load()
 
     # Split text in chunks

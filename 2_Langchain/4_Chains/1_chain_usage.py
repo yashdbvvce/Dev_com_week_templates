@@ -16,6 +16,6 @@ prompt_template = ChatPromptTemplate.from_messages(messages)
 # Types this
 # ========================================================
 chain = prompt_template | llm | StrOutputParser()
-result = chain.invoke({"topic":"RCB", "no_of_jokes":5})
+result = chain.invoke({"topic":"CSK", "no_of_jokes":5})
 print(result)
 # ========================================================
