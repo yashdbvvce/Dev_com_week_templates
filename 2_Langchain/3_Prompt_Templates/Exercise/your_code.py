@@ -2,7 +2,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
-import lorem
 
 load_dotenv()
 
@@ -14,13 +13,16 @@ messages = [
 
 
 
-
 def generate_response(food_dish):
-    # Your code goes here
-    # Your code goes gere
+    # Type this ===============================================
     # Write your prompt here
     prompt_template = """
+    Give me only the ingredients for this food this
     {food_dish}
     """
-
-    return lorem.paragraph()
+    prompt_template_ = ChatPromptTemplate.from_template(prompt_template)
+    prompt = prompt_template_.invoke({"food_dish": food_dish})
+    messages.extend(prompt.to_messages())
+    result = llm.invoke(messages)
+    return result.content
+    # Type this ===============================================
