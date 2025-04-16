@@ -11,9 +11,11 @@ messages = [
 
 while True:
     user_input = input("Type your message: ")
-    # Your code goes below
-
+    # Type this ===============================================
+    messages.append(HumanMessage(user_input))
+    # Type this ===============================================
     result = llm.invoke(messages)
-    # Your code goes below
-
+    # Type this ===============================================
+    messages.append(AIMessage(result.content))
+    # Type this ===============================================
     print(result.content)

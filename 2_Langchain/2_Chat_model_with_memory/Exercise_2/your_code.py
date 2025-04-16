@@ -16,4 +16,8 @@ messages = [
 def generate_response(user_input):
     # Your code goes here
 
-    return 0
+    # Solution
+    messages.append(HumanMessage(user_input))
+    result = llm.invoke(messages)
+    messages.append(AIMessage(result.content))
+    return result.content
