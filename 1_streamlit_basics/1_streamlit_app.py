@@ -19,16 +19,16 @@ operator = st.selectbox("Operator",["+", "*","/","-"])
 if st.button("Calculate"):
     if operator == "+":
         # Write the code to sum up two numbers (number_1,number_2)
-        result = 0
+        result = number_1 + number_2
     elif operator == "*":
         # Write the code to multiply two numbers (number_1,number_2)
-        result = 0
+        result = number_1 * number_2
     elif operator == "/":
         # Write the code to divide two numbers (number_1,number_2)
-        result = 0
+        result = number_1 / number_2
     elif operator == "-":
         # Write the code to subtract two numbers (number_1,number_2)
-        result = 0
+        result = number_1 - number_2
     # Add a case for modulus operator
     else:
         # Invalid operator

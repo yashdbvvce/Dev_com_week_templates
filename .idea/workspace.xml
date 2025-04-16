@@ -5,42 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b416524c-ff14-4b6a-a640-7836d114482d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DevComWeekTemplates.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_streamlit_basics/1_streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_streamlit_basics/echo_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/1_Chat_models/1_google_chat_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/1_Chat_models/Exercise_1/streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/1_Chat_models/Exercise_1/your_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/1_Chat_Messages_Types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/2_implementing_memory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/Exercise_2/streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/2_Chat_model_with_memory/Exercise_2/your_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/1_Basic_Prompt_Template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/2_Prompt_with_memory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/Exercise/streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/3_Prompt_Templates/Exercise/your_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/1_chain_usage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/2_Custom_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/3_branching_chains.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/Exercise/streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Langchain/4_Chains/Exercise/your_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/1_rag_creating_vector_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/2_getting_data_from_Vector_Store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/3_qna_vector_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/1_Rag_Intro/books/romeo_and_juliet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/books/romeo_and_juliet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/2_Romeo_Juliet_Playground/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/3_Exercise/books/adventures_of_sherlock_holmes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/3_Exercise/streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RAG/3_Exercise/your_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DevComWeekTemplates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DevComWeekTemplates.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_streamlit_basics/1_streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_streamlit_basics/1_streamlit_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,23 +27,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Stremlit App.executor&quot;: &quot;Run&quot;,
-    &quot;Python.streamlit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.streamlit_app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yashdeepakbambore/Documents/Btech/6th Sem/Dev_Com_Week/DevComWeekTemplates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Stremlit App.executor": "Run",
+    "Python.streamlit.executor": "Run",
+    "Python.streamlit_app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/yashdeepakbambore/Documents/Btech/6th Sem/Dev_Com_Week/DevComWeekTemplates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -91,7 +61,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (DevComWeekTemplates)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -110,8 +79,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
-        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
